@@ -7,6 +7,10 @@ Homme Assistant simple MCP server
 
 ## Specifications
 
+## Init virtual envionnemet
+uv venv
+
+
 ## Lancement
 
 source .venv/bin/activate
