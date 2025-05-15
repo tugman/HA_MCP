@@ -9,7 +9,6 @@ mcp = FastMCP("Hello, and welcome to HA MCP:-)")
 
 
 
-
 # To Do define MCP tools like :
 #@mcp.tool()
 #def cos(a: int) -> float:
