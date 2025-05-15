@@ -2,10 +2,10 @@
 Homme Assistant simple MCP server
 
 ## Just a start
+This is a sandbox of what could be a HA MCP server. There are 10000 of them, so this is my sandbox.
 
 ## Create project
 uv init HA_MCP
-
 
 ## Init virtual envionnemet
 uv venv
