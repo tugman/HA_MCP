@@ -1,7 +1,7 @@
 [project]
 name = "ha-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "This a simple Home Assistant MCP server. Nothing fancy, just basics functionalities"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
