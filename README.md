@@ -11,7 +11,7 @@ uv init HA_MCP
 uv venv
 
 ## Libraries
-uv add "mcp[cli]" httpx
+uv add "mcp[cli]" httpx requests
 
 ## Lancement
 source .venv/bin/activate
