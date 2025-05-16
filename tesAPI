@@ -7,17 +7,31 @@ curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1
 
 
 
-// Entity states
+// All Entity states
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1M2VkMDdmZDhhYzQ0YTI2OGNhMmZjMGY4MmZhMjJlNyIsImlhdCI6MTc0NjgwOTYwNCwiZXhwIjoyMDYyMTY5NjA0fQ.w5FM6otNEJFysqxWUJqc6hljyXbdBWQKyAEZkQfUitw" -H "Content-Type: application/json" http://192.168.1.60:8123/api/states
+
+
 
 
 // Get services
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1M2VkMDdmZDhhYzQ0YTI2OGNhMmZjMGY4MmZhMjJlNyIsImlhdCI6MTc0NjgwOTYwNCwiZXhwIjoyMDYyMTY5NjA0fQ.w5FM6otNEJFysqxWUJqc6hljyXbdBWQKyAEZkQfUitw" -H "Content-Type: application/json" http://192.168.1.60:8123/api/services
 
 
-// Turn light on
+// Turn light on - bureau
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1M2VkMDdmZDhhYzQ0YTI2OGNhMmZjMGY4MmZhMjJlNyIsImlhdCI6MTc0NjgwOTYwNCwiZXhwIjoyMDYyMTY5NjA0fQ.w5FM6otNEJFysqxWUJqc6hljyXbdBWQKyAEZkQfUitw" -H "Content-Type: application/json" -d '{"entity_id":"switch.plug_1_socket_1"}' http://192.168.1.60:8123/api/services/switch/turn_on
 
 
-// Turn light off
+// Turn light off - bureau
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1M2VkMDdmZDhhYzQ0YTI2OGNhMmZjMGY4MmZhMjJlNyIsImlhdCI6MTc0NjgwOTYwNCwiZXhwIjoyMDYyMTY5NjA0fQ.w5FM6otNEJFysqxWUJqc6hljyXbdBWQKyAEZkQfUitw" -H "Content-Type: application/json" -d '{"entity_id":"switch.plug_1_socket_1"}' http://192.168.1.60:8123/api/services/switch/turn_off
+
+
+
+
+// Turn light on - bedroom
+curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1M2VkMDdmZDhhYzQ0YTI2OGNhMmZjMGY4MmZhMjJlNyIsImlhdCI6MTc0NjgwOTYwNCwiZXhwIjoyMDYyMTY5NjA0fQ.w5FM6otNEJFysqxWUJqc6hljyXbdBWQKyAEZkQfUitw" -H "Content-Type: application/json" -d '{"entity_id":"switch.interupteur_chambre_parents_switch"}' http://192.168.1.60:8123/api/services/switch/turn_on
+
+
+
+
+
+
