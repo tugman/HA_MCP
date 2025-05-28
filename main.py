@@ -14,7 +14,7 @@ def getAPI(urlAddr: str) -> str:
     response = requests.get(urlAddr, auth=('moi','pass'))
     print(response.status_code)
     print(response.text)
-    return str(response)
+    return str(response.text)
 
 
 @mcp.tool()
@@ -41,6 +41,7 @@ def checkTemperature():
     data = {"state": "25", "attributes": {"unit_of_measurement": "°C"}}
     response = requests.post(url, headers=headers, json=data)
     print(response.text)
+    return str(response.text)
 
 
 

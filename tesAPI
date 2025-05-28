@@ -27,8 +27,15 @@ curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1
 
 
 
+
 // Turn light on - bedroom
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1M2VkMDdmZDhhYzQ0YTI2OGNhMmZjMGY4MmZhMjJlNyIsImlhdCI6MTc0NjgwOTYwNCwiZXhwIjoyMDYyMTY5NjA0fQ.w5FM6otNEJFysqxWUJqc6hljyXbdBWQKyAEZkQfUitw" -H "Content-Type: application/json" -d '{"entity_id":"switch.interupteur_chambre_parents_switch"}' http://192.168.1.60:8123/api/services/switch/turn_on
+
+
+curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1M2VkMDdmZDhhYzQ0YTI2OGNhMmZjMGY4MmZhMjJlNyIsImlhdCI6MTc0NjgwOTYwNCwiZXhwIjoyMDYyMTY5NjA0fQ.w5FM6otNEJFysqxWUJqc6hljyXbdBWQKyAEZkQfUitw" -H "Content-Type: application/json" -d '{"entity_id":""switch.led_entre_salon_et_cuisine"}' http://192.168.1.60:8123/api/services/switch/turn_on
+
+
+
 
 
 

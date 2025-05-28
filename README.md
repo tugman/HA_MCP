@@ -11,7 +11,7 @@ uv init HA_MCP
 uv venv
 
 ## Libraries
-uv add "mcp[cli]" httpx requests
+uv add "mcp[cli]" httpx requests "pydantic-ai[logfire]" "fastapi[standard]"
 
 ## Lancement
 source .venv/bin/activate

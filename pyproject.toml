@@ -5,7 +5,9 @@ description = "This a simple Home Assistant MCP server. Nothing fancy, just basi
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "fastapi[standard]>=0.115.12",
     "httpx>=0.28.1",
     "mcp[cli]>=1.8.1",
+    "pydantic-ai[logfire]>=0.2.4",
     "requests>=2.32.3",
 ]
