@@ -49,3 +49,5 @@ def checkTemperature():
 # Execute and return the sse output
 if __name__ == "__main__":
     mcp.run(transport="sse")
+
+
